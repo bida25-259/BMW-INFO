@@ -1,1 +1,259 @@
+/* =========================
+   GLOBAL RESET (UNCHANGED)
+========================= */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
 
+body {
+  font-family: Arial, sans-serif;
+  line-height: 1.6;
+  background-color: #0a0a0a; /* BMW dark theme */
+  color: #ffffff;
+}
+
+/* =========================
+   NAVBAR (BMW STYLE)
+========================= */
+.custom-navbar {
+  background-color: rgba(10, 10, 10, 0.9);
+  padding: 10px 0;
+  border-bottom: 1px solid #1f1f1f;
+}
+
+.custom-navbar .navbar-brand {
+  color: #ffffff;
+  font-weight: bold;
+  letter-spacing: 2px;
+}
+
+.custom-navbar .navbar-nav .nav-link {
+  color: #d1d1d1;
+  margin-right: 20px;
+  font-size: 18px;
+}
+
+.custom-navbar .navbar-nav .nav-link:hover {
+  color: #00a2ff; /* BMW blue accent */
+}
+
+/* =========================
+   HERO (BMW STYLE)
+========================= */
+.hero {
+  background-image: url('images/bmw-hero.jpg');
+  background-size: cover;
+  background-position: center;
+  height: 70vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.hero .container {
+  text-align: center;
+  color: #fff;
+}
+
+.hero .display-4 {
+  font-size: 3rem;
+  font-weight: bold;
+}
+
+.hero .lead {
+  font-size: 1.5rem;
+}
+
+.hero .btn {
+  font-size: 1.2rem;
+  padding: 12px 30px;
+  background-color: #0077ff;
+  color: #fff;
+  border: none;
+  border-radius: 25px;
+  transition: all 0.3s ease;
+}
+
+.hero .btn:hover {
+  background-color: #005bcc;
+  transform: scale(1.1);
+}
+
+/* =========================
+   ABOUT SECTION (BMW STYLE)
+========================= */
+#about {
+  padding: 50px 0;
+  color: #ffffff;
+}
+
+#about h2 {
+  font-size: 2.5rem;
+  margin-bottom: 20px;
+  color: #ffffff;
+}
+
+#about p {
+  font-size: 1.2rem;
+  margin-bottom: 30px;
+  color: #cccccc;
+}
+
+#about .btn {
+  background-color: #0077ff;
+  color: #fff;
+  padding: 12px 30px;
+  border-radius: 25px;
+  transition: all 0.3s ease;
+}
+
+#about .btn:hover {
+  background-color: #005bcc;
+}
+
+/* =========================
+   ABOUT HERO (BMW CLEAN)
+========================= */
+.about-hero {
+  margin-top: 100px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  min-height: 60vh;
+  background: linear-gradient(180deg, #111111, #000000);
+}
+
+/* =========================
+   CARDS (BMW DARK LUXURY)
+========================= */
+.about-card {
+  background-color: #111;
+  padding: 40px;
+  border-radius: 15px;
+  box-shadow: 0 4px 20px rgba(0, 162, 255, 0.2);
+  text-align: center;
+  max-width: 600px;
+  transition: all 0.3s ease;
+}
+
+.about-card:hover {
+  transform: scale(1.05);
+  box-shadow: 0 6px 30px rgba(0, 162, 255, 0.4);
+}
+
+.about-card h1 {
+  font-size: 2.5rem;
+  font-weight: bold;
+  color: #ffffff;
+}
+
+.about-card p {
+  font-size: 1.3rem;
+  color: #bbbbbb;
+}
+
+/* =========================
+   SECTION TITLES
+========================= */
+.section-title {
+  font-size: 2.1rem;
+  margin-bottom: 30px;
+  color: #ffffff;
+}
+
+/* =========================
+   VALUE CARDS (BMW STYLE)
+========================= */
+.value-card {
+  border-radius: 15px;
+  box-shadow: 0 4px 15px rgba(0, 0, 0, 0.4);
+  transition: all 0.3s ease;
+  background-color: #151515;
+  color: #fff;
+}
+
+.value-card h5 {
+  font-size: 1.5rem;
+  margin-bottom: 15px;
+  color: #00a2ff;
+}
+
+.value-card p {
+  font-size: 1.1rem;
+  color: #cccccc;
+}
+
+.value-card:hover {
+  transform: translateY(-10px);
+  box-shadow: 0 8px 25px rgba(0, 162, 255, 0.3);
+}
+
+/* =========================
+   TIMELINE (BMW DARK)
+========================= */
+.timeline-section {
+  background: linear-gradient(180deg, #0a0a0a, #111);
+  padding: 60px 0;
+}
+
+.timeline-item {
+  background-color: #151515;
+  border-left: 3px solid #00a2ff;
+  padding: 20px;
+  border-radius: 10px;
+}
+
+.timeline-item h5 {
+  color: #00a2ff;
+}
+
+.timeline-item p {
+  color: #ccc;
+}
+
+/* =========================
+   TEAM SECTION
+========================= */
+.team-section {
+  background: #0a0a0a;
+  padding: 60px 0;
+}
+
+.team-card {
+  background-color: #111;
+  border-radius: 15px;
+  overflow: hidden;
+  box-shadow: 0 4px 15px rgba(0, 0, 0, 0.5);
+}
+
+.team-info {
+  background-color: rgba(0, 0, 0, 0.7);
+  color: #fff;
+}
+
+/* =========================
+   BUTTONS (BMW BLUE)
+========================= */
+.btn-get-started {
+  background-color: #0077ff;
+  color: #fff;
+  padding: 12px 25px;
+  border-radius: 25px;
+  transition: all 0.3s ease;
+}
+
+.btn-get-started:hover {
+  background-color: #005bcc;
+  transform: scale(1.05);
+}
+
+/* =========================
+   FOOTER (BMW STYLE)
+========================= */
+.footer {
+  background-color: #000;
+  color: #aaa;
+  padding: 50px 0;
+}
